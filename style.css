@@ -26,7 +26,7 @@ article{
     margin-bottom: 5px;
 }
 
-img{
+article img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -61,6 +61,8 @@ span{
 /*---------------------------------------------------*/
 /*-------------------CAROUSSEL-----------------------*/
 /*---------------------------------------------------*/
+/*https://vincentdubroeucq.com/slider-carrousel-sans-js-css-scoll-snap/*/
+
 .carousel-items{
     display: flex;
     overflow-x: scroll;
