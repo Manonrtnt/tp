@@ -1,0 +1,93 @@
+body{
+    background-image: radial-gradient(#CCDAE0, #EDF2F4);
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: #EF233C;
+    font-size: 3em;
+    font-family: Impact;
+    font-weight: bold;
+}
+
+h3{
+    color: #2B2D42;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline dotted #2B2D42;
+}
+
+article{
+    border: black solid 1px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:#8D99AE solid 2px ;
+}
+
+footer{
+    list-style-type:none;
+    float:right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    color:#D90429;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    color: #2B2D42;
+}
+
+span{
+    color: red;
+}
+
+/*---------------------------------------------------*/
+/*-------------------CAROUSSEL-----------------------*/
+/*---------------------------------------------------*/
+.carousel-items{
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding: 1rem 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px;
+    margin-left: 1rem;
+}
+
+.carousel-item{
+    flex: 1 0 250px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3d4852;
+    border-radius: 3px;
+}
