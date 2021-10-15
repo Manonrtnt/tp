@@ -46,6 +46,13 @@ span{
     color: red;
 }
 
+form{
+    margin-top: 4%;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
 /*-----------------------LINK----------------------*/
 a{
     color:#D90429;
