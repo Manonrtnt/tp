@@ -1,3 +1,11 @@
+body{
+    margin-bottom: 3%;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    background-color: rgba(241, 241, 241, 0.808);
+}
+
 h1, h2,h3, h4{
     font-family:'Roboto';
     color:rgb(241, 75, 46);
@@ -50,13 +58,7 @@ a:hover{
 /*---------------------------------------------------*/
 /*-------------------HEADER--------------------------*/
 /*---------------------------------------------------*/
-body{
-    margin-bottom: 3%;
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 3;
-    background-color: rgba(241, 241, 241, 0.808);
-}
+
 
 #entête{
     grid-column: 1 /span 2;
@@ -73,6 +75,7 @@ body{
 #profil{
     background-color: white;
     box-shadow: 6px 6px 15px lightgray ;
+    border:rgb(238, 116, 94) 2px solid;
     text-align: center;
     margin-left: 2%;
     padding: 2%;
@@ -82,6 +85,7 @@ body{
 #contact{
     background-color: white;
     box-shadow: 6px 6px 15px lightgray ;
+    border:rgb(238, 116, 94) 2px solid;
     text-align: center;
     margin-right: 2%;
     padding: 2%;
