@@ -1,13 +1,6 @@
 /*---------------------------------------------------*/
 /*-------------------COLONNE-------------------------*/
 /*---------------------------------------------------*/
-/*body{
-    column-count: 2;
-}*/
-html, body{
-    border-bottom: rgb(238, 116, 94) 5px solid;
-    margin: 20px
-}
 
 header{
     text-align: center;
@@ -40,27 +33,28 @@ h3{
     font-weight: bold;
 }
 
+li{
+    padding: 5px;
+}
+
 #colonne{
-    display: grid;
+    display: block;
 }
 
 #droite{
     padding: 20px;
-    width: 65%;
-    height: 850px;
-    float: right;
-    margin: 0%;
+    grid-column: 2;
+    grid-row: 2;
+    border-top:rgb(238, 116, 94) 5px solid;
+    border-left:rgb(238, 116, 94) 5px solid;
 }
 
 #gauche{
     padding: 20px;
-    width: 25%;
     height: 850px;
-    float: left;
-    margin: 0%;
+    border-top:rgb(238, 116, 94) 5px solid;
     border-right:rgb(238, 116, 94) 5px solid;
+    grid-column: 1;
+    grid-row: 1;
 }
 
-li{
-    padding: 5px;
-}
