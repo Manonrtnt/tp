@@ -1,0 +1,66 @@
+/*---------------------------------------------------*/
+/*-------------------COLONNE-------------------------*/
+/*---------------------------------------------------*/
+/*body{
+    column-count: 2;
+}*/
+html, body{
+    border-bottom: rgb(238, 116, 94) 5px solid;
+    margin: 20px
+}
+
+header{
+    text-align: center;
+}
+
+h1, h2{
+    font-family:'Roboto';
+    color:rgb(241, 75, 46);
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'roboto';
+    color:rgb(238, 116, 94);
+    font-weight: lighter;
+}
+
+#locali{    
+    font-family: 'roboto';
+    color:rgb(238, 116, 94);
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 14px;
+
+}
+
+#expériences:not(#locali),#formation:not(#locali){
+    font-family:'Roboto';
+    color:rgb(241, 75, 46);
+    font-weight: bold;
+}
+
+#colonne{
+    display: grid;
+}
+
+#droite{
+    padding: 20px;
+    width: 65%;
+    height: 850px;
+    float: right;
+    margin: 0%;
+}
+
+#gauche{
+    padding: 20px;
+    width: 25%;
+    height: 850px;
+    float: left;
+    margin: 0%;
+    border-right:rgb(238, 116, 94) 5px solid;
+}
+
+li{
+    padding: 5px;
+}
