@@ -1,25 +1,25 @@
 body{
     background-color: #7E3F8F;
-    margin: 0%;
+    margin: 0;
 }
 
 #article, #galerie{
     background-color: #C8F4B9;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 20px;
     padding: 30px;
 }
 
 #colonne{
     display: flex;
-    justify-content:space-between;
+    align-items: flex-start;
 }
 
 /*----------HEADER-------------*/
 #header{
     background-color: #C8F4B9;
     text-align: center;
-    padding: 1%;
+    padding: 10px 0;
 }
 
 h1{
@@ -52,22 +52,22 @@ h1{
     padding: 5px;
     margin: 5px;
     background-color: #8C86AA;
-    border: 2px solid #8C86AA;
     color: #C8F4B9;
     text-align: center;
     text-decoration: none;
 }
 
 #nav a:hover{
-    border: 2px solid white;
+    background-color:white;
+    border-color: white solid 2px;
+    color: black;
 }
 
 #nav{
     background-color: #C8F4B9;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 20px;
     padding: 10px;
-    height: 190px;
 }
 
 /*----------GALERIE----------*/
@@ -92,8 +92,7 @@ h1{
 
 .article img{
     padding-right: 10px;
-    width: 300px;
-    height: 200px;
+    height: 100%;
 }
 
 /*----------RESPONSIVE-------*/
