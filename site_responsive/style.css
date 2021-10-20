@@ -24,8 +24,12 @@ body{
 
 h1{
     color: #81559B;
+    font-size: 3em;
 }
 
+h2{
+    font-size: 2em;
+}
 /*----------FOOTER-------------*/
 #footer{
     background-color: #C8F4B9;
@@ -97,14 +101,13 @@ h1{
 }
 
 /*----------RESPONSIVE-------*/
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1300px){
     .article{
-        display: flex;
         flex-direction: column;
     }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1024px){
     #colonne{
         display: grid;
         grid-template-columns: 1;
@@ -118,5 +121,6 @@ h1{
         height: 40px;
     }
 }
+
 
 
