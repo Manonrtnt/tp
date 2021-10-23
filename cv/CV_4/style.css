@@ -1,0 +1,133 @@
+body{
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 7;
+    color: rgb(34, 34, 34);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: #3D3D3D;
+    font-size: 1em;;
+}
+
+div:not(#profil div, #entête){
+    padding: 1%;
+    margin:2%;
+    border: #D7A96D 1px solid;
+    border-left: #ECECEC solid 10px;
+    background-color: white;
+}
+
+h1, h2, h3{
+    color: #3D3D3D;
+}
+
+span{
+    font-style: italic ;
+    color: #D7A96D;
+    font-weight: normal;
+}
+
+#expériences li, #formations li{
+    color: #3D3D3D;
+}
+
+/*-------------------------HEADER----------------------------*/
+header{
+    grid-column: 1 /span 3;
+    background-color: white;
+    box-shadow: #ECECEC 0px 0px 0px 10px;
+}
+
+#entête{
+    text-align: center;
+    font-size: 2em ;
+    box-shadow: #D7A96D 1px 1px 1px 2px;
+    padding: 1%;
+    margin:2%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: #D7A96D solid 2px;
+    border-bottom: #D7A96D solid 2px;
+    margin: 2%;
+    padding: 1%;
+}
+
+nav a{
+    font-size: 1em;
+    text-decoration: none;
+    color: #D7A96D;
+    border-right: #D7A96D solid 1px;
+}
+
+nav a:hover{
+    transform: scale(1.5);
+    color: #3D3D3D;
+}
+/*-------------------------PROFIL----------------------------*/
+
+#profil{
+    grid-column: 2;
+    grid-row: 3;
+    display: flex;
+}
+
+#profil div:first-child{
+    border-right: solid #D7A96D 1px;
+}
+
+#profil div{
+    padding: 2%;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#contact a{
+    border: #D7A96D 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    color: #D7A96D;
+    text-decoration: none;
+    padding: 1%;
+}
+
+#contact a:hover{
+    border: #D7A96D 2px solid;
+    text-align: center;
+    color: white;
+    background-color: #D7A96D;
+    transform: scale(1.1);
+}
+
+
+#savoir-faire{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#savoir-être{
+    grid-column: 2;
+    grid-row: 5;
+}
+
+#expériences{
+    grid-column: 2;
+    grid-row: 6;
+}
+
+#formations{
+    grid-column: 2;
+    grid-row: 7;
+}
+
+li{
+    list-style-type: circle;
+    padding: 5px;
+}
