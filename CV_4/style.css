@@ -22,6 +22,10 @@ h1, h2, h3{
     color: #3D3D3D;
 }
 
+h3:first-of-type{
+    color: #D7A96D;
+}
+
 span{
     font-style: italic ;
     color: #D7A96D;
@@ -36,13 +40,11 @@ span{
 header{
     grid-column: 1 /span 3;
     background-color: white;
-    box-shadow: #ECECEC 0px 0px 0px 10px;
 }
 
 #entête{
     text-align: center;
     font-size: 2em ;
-    box-shadow: #D7A96D 1px 1px 1px 2px;
     padding: 1%;
     margin:2%;
 }
@@ -61,6 +63,7 @@ nav a{
     text-decoration: none;
     color: #D7A96D;
     border-right: #D7A96D solid 1px;
+    padding-right: 4px;
 }
 
 nav a:hover{
@@ -73,6 +76,7 @@ nav a:hover{
     grid-column: 2;
     grid-row: 3;
     display: flex;
+    justify-content: space-evenly;
 }
 
 #profil div:first-child{
@@ -83,6 +87,13 @@ nav a:hover{
     padding: 2%;
 }
 
+#profil a{
+    color: #3D3D3D;
+    text-decoration: none;
+    display: block;
+}
+
+/*-------------------------CONTACT----------------------------*/
 #contact{
     display: flex;
     flex-direction: column;
@@ -106,7 +117,7 @@ nav a:hover{
     transform: scale(1.1);
 }
 
-
+/*-------------------------CONTENU----------------------------*/
 #savoir-faire{
     grid-column: 2;
     grid-row: 4;
