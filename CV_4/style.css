@@ -19,10 +19,6 @@ div:not(#profil div, #entête){
 }
 
 h1, h2, h3{
-    color: #3D3D3D;
-}
-
-h3:first-of-type{
     color: #D7A96D;
 }
 
